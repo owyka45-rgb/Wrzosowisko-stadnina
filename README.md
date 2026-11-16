@@ -36,7 +36,7 @@ Projekt strony internetowej fikcyjnej szkółki jeździeckiej i stadniny koni �
 
 ## Dostępność i responsywność
 Projekt będzie tworzony z uwzględnieniem:
-- smentycznego HTML,
+- semantycznego HTML,
 - opisów alternatywnych obrazów,
 - etykiet formularzy,
 - obsługi klawiaturą,
