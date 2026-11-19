@@ -45,3 +45,9 @@ Projekt będzie tworzony z uwzględnieniem:
 
 ## Status
 Projekt jest w trakcie tworzenia.
+
+Obecnie przygotowałam:
+-podstawową strukturę strony,
+-sekcję informacyjną & kontaktową,
+-sekcję "Nasze konie" z przykł. końmi` ,
+-podstawowe style kolorystyczne strony.

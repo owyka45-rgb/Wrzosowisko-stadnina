@@ -1,1 +1,18 @@
 /* style strony Wrzosowisko */
+body {
+    background-color: #f3efe3;
+    color: #3f3428;
+    font-family: Arial, sans-serif;
+}
+
+h1,h2,h3{
+            color: #355c45;
+        }
+
+header {
+    background-color: #dce7d5;
+}
+
+section {
+    background-color: #faf8f0;
+}
