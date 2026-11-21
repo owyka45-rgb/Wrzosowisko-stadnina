@@ -10,9 +10,27 @@ h1,h2,h3{
         }
 
 header {
-    background-color: #dce7d5;
+    background-color: #ecf3d4;
 }
 
 section {
     background-color: #faf8f0;
+}
+
+#Konie {
+    padding: 20px;
+}
+
+#Konie article {
+    background-color: #fffdf7;
+    border: 1px solid #c8b89f;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#Konie article img {
+    width: 260px;
+    height: 180px;
+    object-fit: cover;
 }
