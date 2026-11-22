@@ -8,16 +8,33 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
     <header>
         <h1>Wrzosowisko</h1>
         <p>Szkółka jeździectwa i stadnina koni</p>
 
+        <!-- Nawigacja strony -->
         <nav>
-            <a href="#Onas">O stadninie</a>
-            <a href="#Konie">Nasze konie</a>
-            <a href="#Ofera">Oferta</a>
-            <a href="#Kontakt">Kontakt</a>
+             <details>
+                <summary>O stadninie</summary>
+                <a href="#Onas">O nas</a>
+            </details>
+        
+            <details>
+                <summary>Nasze konie</summary>
+                <a href="#Konie">Lista koni</a>
+            </details>
+        
+            <details>
+                <summary>Oferta</summary>
+                <a href="#Oferta">Nasza oferta</a>
+            </details>
+        
+            <details>
+                <summary>Kontakt</summary>
+                <a href="#Kontakt">Dane kontaktowe</a>
+            </details>
         </nav>
     </header>
 
@@ -27,7 +44,15 @@
 
             <p>
                 Wrzosowisko to miejsce stworzone z myślą 
-                o miłośnikach koni, jeździectwa i natury
+                o miłośnikach koni, jeździectwa i natury.
+                Nasza stadnina łączy naukę jazdy konnej
+                z możliwością spędzania czasu w spokojnym, naturalnym otoczeniu.
+            </p>
+
+            <p>
+                Niezależnie od tego, czy dopiero zaczynasz swoją przygodę z końmi,
+                czy masz już doświadczenie, znajdziesz tutaj zajęcia dopasowane
+                do swoich umiejętności i zainteresowań.
             </p>
 
             <p>
@@ -40,16 +65,16 @@
             <h2>Nasze Konie</h2>
 
             <p>Poznaj konie, które mieszkają w naszej stadninie
-                i towarzyszą nam podczas jazy.
+                i towarzyszą nam podczas jazdy.
             </p>
 
             <article>
                 <h3>Sable</h3>
-                <!-- link-źródło :https://www.horseandhound.co.uk/features/friesian-horses-785601 -->
+                <!-- Źródło zdjęcia :https://www.horseandhound.co.uk/features/friesian-horses-785601 -->
                 <img src="images/sable.jpg" alt="Sable - klacz rasy fryzyjskiej">
 
                 <p>
-                    Rasa: koń fryzyjski
+                    <strong>Rasa:</strong> Koń Fryzyjski
                 </p>
 
                 <p>
@@ -61,11 +86,11 @@
 
             <article>
                 <h3>Aspen</h3>
-                <!-- link-źródło : https://images.pexels.com/photos/37109038/pexels-photo-37109038.jpeg-->
+                <!-- Źródło zdjęcia : https://images.pexels.com/photos/37109038/pexels-photo-37109038.jpeg-->
                 <img src="images/aspen.jpg" alt="Aspen - koń rasy haflinger">
 
                 <p>
-                    Rasa: haflinger
+                    <strong>Rasa:</strong> Haflinger
                 </p>
 
                 <p>
@@ -77,11 +102,11 @@
 
             <article>
                 <h3>Freya</h3>
-                <!-- link-źródło : https://en.wikipedia.org/wiki/File:GypsyMareLeft.jpg -->
+                <!-- Źródło zdjęcia : https://en.wikipedia.org/wiki/File:GypsyMareLeft.jpg -->
                 <img src="images/freya.jpg" alt="Freya - klacz rasy tinker">
 
                 <p>
-                    Rasa: tinker
+                    <strong>Rasa:</strong> Tinker
                 </p>
 
                 <p>
@@ -94,11 +119,11 @@
 
             <article>
                 <h3>Adler</h3>
-                <!-- link-źródło : https://www.cavalluna.com/en/backstage-more/knowledge-about-horses/horse-breeds/hanoverian-horse -->
+                <!-- Źródło zdjęcia : https://www.cavalluna.com/en/backstage-more/knowledge-about-horses/horse-breeds/hanoverian-horse -->
                 <img src="images/adler.jpg" alt="Adler - koń rasy hanowerskiej">
 
                 <p>
-                    Rasa: hanowerski
+                    <strong>Rasa:</strong> Hanowerski
                 </p>
 
                 <p>
@@ -120,7 +145,7 @@
             </p>
 
             <article>
-                <h3>Nauka Jazy konnej</h3>
+                <h3>Nauka jazdy konnej</h3>
 
                 <p>
                     Zajęcia dla początkujących oraz osób,
@@ -141,47 +166,76 @@
                 <h3>Treningi jeździeckie</h3>
 
                 <p>
-                    Treningi ujeżdżeniowe i Skokow 
-                    dla bardziej doświadczonych jeźdźców
+                    Treningi ujeżdżeniowe i skoków 
+                    dla bardziej doświadczonych jeźdźców.
                 </p>
             </article>
 
         </section>
 
-
-
-
-
-
-
-
-
+        <!-- Sekcja kontaktowa -->
         <section id="Kontakt">
             <h2>Kontakt</h2>
-
-            <p>
-                Masz pytania dotczące jazdy konnej lub naszej stadniny?
-                Skontaktuj się z nami.
-            </p>
-
-            <p>
-                E-mail: kontakt@wrzosowisko.pl
-            </p>
-
-            <p>
-                Telefon: XXX XXX XXX
-            </p>
-
-        </section>
-
-
         
+            <p>
+                Masz pytania dotyczące jazdy konnej lub naszej stadniny?
+                Skontaktuj się z nami!
+            </p>
+        
+            <!-- Układ informacji kontaktowych -->
+            <div class="Kontakt-uklad">
+
+                <!-- Godziny kontaktu -->
+                <aside class="Kontakt-godziny">
+                    <h3>Godziny kontaktu :</h3>
+        
+                    <p><strong>Poniedziałek – piątek:</strong><br>9:00 – 17:00</p>
+                    <p><strong>Sobota:</strong><br>10:00 – 14:00</p>
+                    <p><strong>Niedziela:</strong><br>Po wcześniejszym umówieniu</p>
+                </aside>
+        
+                <!-- Dane kontaktowe i adres -->
+                <section class="Kontakt-bloki">
+        
+                    <section class="Kontakt-blok">
+                        <h3>Dane kontaktowe :</h3>
+        
+                        <address>
+                            <p><strong>Telefon komórkowy:</strong><br>000 000 000</p>
+        
+                            <p><strong>Telefon stacjonarny:</strong><br>00 000 00 00</p>
+        
+                            <p>
+                                <strong>E-mail:</strong><br>
+                                <a href="mailto:kontakt@wrzosowisko.example">
+                                    kontakt@wrzosowisko.example
+                                </a>
+                            </p>
+                        </address>
+                    </section>
+        
+                    <section class="Kontakt-blok">
+                        <h3>Adres stadniny :</h3>
+
+                        <address>
+                            <p><strong>Miejscowość:</strong><br>Wrzosowice</p>
+        
+                            <p><strong>Ulica:</strong><br>Nadrzeczna 15</p>
+        
+                            <p><strong>Kod pocztowy:</strong><br>00-000</p>
+                        </address>
+                    </section>
+        
+                </section>
+        
+            </div>
+        </section>
+       
     </main>
 
+    <!-- Stopka strony -->
     <footer>
         <p>© 2026 Wrzosowisko</p>
-    </footer>
-
-    
+    </footer> 
 </body>
 </html>

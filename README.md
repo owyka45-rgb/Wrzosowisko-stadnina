@@ -6,7 +6,7 @@ Projekt strony internetowej fikcyjnej szkółki jeździeckiej i stadniny koni �
 - JavaScript
 - Git
 - GitHub
-- AI* (~ Copilot)- głównie jako pomoc w planowaniu struktury i kolorytsyki strony,     przygotowywaniu przykładowych tekstów oraz konsultowaniu rozwiązań.
+- AI (~ Copilot)- głównie jako pomoc w planowaniu struktury i kolorytsyki strony,     przygotowywaniu przykładowych tekstów oraz konsultowaniu rozwiązań.
 
 ## Planowane strony
 
@@ -28,12 +28,11 @@ Projekt strony internetowej fikcyjnej szkółki jeździeckiej i stadniny koni �
 - Statystyki
 
 ## Funkcjonalności JavaScript
-
+Planowane funkcjonalności:
 - walidacja formularza,
 - komunikaty o błędach,
 - filtrowanie koni,
-- interaktywny element poza formularzem,
-- ...; 
+- interaktywny element poza formularzem.
 
 ## Dostępność i responsywność
 Projekt będzie tworzony z uwzględnieniem:
@@ -48,7 +47,20 @@ Projekt będzie tworzony z uwzględnieniem:
 Projekt jest w trakcie tworzenia.
 
 Obecnie przygotowałam:
--podstawową strukturę strony,
--sekcję informacyjną & kontaktową,
--sekcję "Nasze konie" z przykł. końmi` ,
--podstawowe style kolorystyczne strony.
+- podstawową strukturę projektu,
+- sekcję : „O nas”,
+- sekcję : „Nasze konie” z przykładowymi postaciami koni i zdjęciami,
+- sekcję : „Oferta”, 
+- sekcję : „Kontakt”,
+- nawigację z rozwijanymi elementami,
+- podstawowe style CSS,
+- układ kart dla koni i oferty,
+- układ bloków w sekcji kontaktowej,
+- Uporządkowanie i uproszczenie kodu CSS.
+
+Kolejne etapy projektu obejmują:
+- dodanie responsywności strony,
+- utworzenie formularza kontaktowego,
+- dodanie walidacji formularza za pomocą JavaScript,
+- dodanie interaktywnych elementów strony,
+- dalsze poprawki dostępności i responsywności.
