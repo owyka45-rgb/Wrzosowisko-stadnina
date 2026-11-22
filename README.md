@@ -6,6 +6,7 @@ Projekt strony internetowej fikcyjnej szkółki jeździeckiej i stadniny koni �
 - JavaScript
 - Git
 - GitHub
+- AI* (~ Copilot)- głównie jako pomoc w planowaniu struktury i kolorytsyki strony,     przygotowywaniu przykładowych tekstów oraz konsultowaniu rozwiązań.
 
 ## Planowane strony
 
