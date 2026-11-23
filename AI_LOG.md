@@ -15,12 +15,24 @@ Wrzosowisko — szkółka jeździecka i stadnina koni
 
 ## Aktualny etap pracy
 AI wykorzystałam jako pomoc przy:
-- doborze struktury sekcji,
+- planowaniu struktury strony i kolejności poszczególnych sekcji,
 - tworzeniu przykładowych opisów koni,
 - sprawdzaniu spójności tematycznej projektu,
-- doborze kolorystyki oraz ogólnego wyglądu strony zgodnie z wymaganiami projektu,
-- tworzeniu i wyjaśnianiu niektórych, trudniejszych lub mniej znanych fragmentów kodu CSS,
+- doborze kolorystyki oraz ogólnego wyglądu strony,
+- tworzeniu i wyjaśnianiu niektórych, trudniejszych fragmentów kodu CSS,
 - wyjaśnianiu działania m.in. CSS Grid, `border-radius` i `object-fit`,
 - konsultowaniu organizacji i uporządkowania kodu CSS,
-- sprawdzaniu struktury sekcji kontaktowej i sposobu rozmieszczenia jej elementów,
-- konsultowaniu kolejnych etapów pracy nad projektem.
+- sprawdzaniu struktury sekcji kontaktowej i rozmieszczenia jej elementów,
+
+### III) Podczas poprawiania dostępności i responsywności AI wykorzystałam do:
+- konsultowania widoczności fokusu elementów interaktywnych,
+- sprawdzania kontrastu tekstu i tła,
+- weryfikacji opisów alternatywnych zdjęć i struktury HTML,
+- analizowania problemów z wyświetlaniem strony na małych ekranach,
+- proponowania i wyjaśniania poprawek CSS,
+- konsultowania testów responsywności,
+- interpretowania wyniku audytu dostępności Lighthouse.
+
+## Aktualny etap pracy
+AI wykorzystałam jako narzędzie pomocnicze. Proponowane rozwiązania i fragmenty kodu były sprawdzane podczas pracy nad projektem, a następnie dostosowywane do przyjętej koncepcji strony.
+Decyzje dotyczące wyglądu, zawartości i kolejności wykonywania poszczególnych elementów projektu podejmowałam samodzielnie.

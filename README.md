@@ -6,7 +6,7 @@ Projekt strony internetowej fikcyjnej szkółki jeździeckiej i stadniny koni �
 - JavaScript
 - Git
 - GitHub
-- AI (~ Copilot)- głównie jako pomoc w planowaniu struktury i kolorytsyki strony,     przygotowywaniu przykładowych tekstów oraz konsultowaniu rozwiązań.
+- AI (~ ChatGPT)- jako pomoc w planowaniu struktury strony, przygotowywaniu przykładowych tekstów, doborze kolorystyki, tworzeniu i wyjaśnianiu fragmentów CSS oraz konsultowaniu poprawek dostępności i responsywności.
 
 ## Planowane strony
 
@@ -35,18 +35,34 @@ Planowane funkcjonalności:
 - interaktywny element poza formularzem.
 
 ## Dostępność i responsywność
-Projekt będzie tworzony z uwzględnieniem:
-- semantycznego HTML,
-- opisów alternatywnych obrazów,
-- etykiet formularzy,
-- obsługi klawiaturą,
-- odpowiedniego kontrastu,
-- responsywności na urządzeniach mobilnych i desktopowych.
+W aktualnej wersji projektu uwzględniono:
+- semantyczny HTML,
+- opisy alternatywne zdjęć,
+- widoczny wskaźnik fokusu,
+- obsługę klawiaturą,
+- odpowiedni kontrast tekstu i tła,
+- dostosowanie układu strony do różnych szerokości ekranów,
+- wykorzystanie CSS Grid i Flexbox.
+
+### Audyt dostępności — Lighthouse
+Aktualna wersja strony została sprawdzona za pomocą narzędzia Lighthouse
+w kategorii Accessibility (Ułatwienia dostępu).
+
+Uzyskany wynik: **100/100 punktów**.
+![Wynik audytu dostępności Lighthouse](images/lighthouse-accessibility.png)
+
+### Testy responsywności
+
+Strona została sprawdzona przy szerokościach:
+- 320 px <=> 1920px ;
+
+
+Podczas testów poprawiono układ nagłówka, menu, kart koni oraz sekcji kontaktowej na mniejszych ekranach.
 
 ## Status
 Projekt jest w trakcie tworzenia.
 
-Obecnie przygotowałam:
+### Obecnie przygotowałam:
 - podstawową strukturę projektu,
 - sekcję : „O nas”,
 - sekcję : „Nasze konie” z przykładowymi postaciami koni i zdjęciami,
@@ -57,9 +73,11 @@ Obecnie przygotowałam:
 - układ kart dla koni i oferty,
 - układ bloków w sekcji kontaktowej,
 - Uporządkowanie i uproszczenie kodu CSS.
+- poprawienie responsywności strony,
+- dostosowanie strony do urządzeń mobilnych i większych ekranów,
+- audyt dostępności Lighthouse z wynikiem 100/100 punktów.
 
 Kolejne etapy projektu obejmują:
-- dodanie responsywności strony,
 - utworzenie formularza kontaktowego,
 - dodanie walidacji formularza za pomocą JavaScript,
 - dodanie interaktywnych elementów strony,
