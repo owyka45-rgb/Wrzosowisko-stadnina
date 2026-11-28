@@ -115,12 +115,15 @@ Wrzosowisko — szkółka jeździecka i stadnina koni
   - porządkowanie struktury pliku README.md,
   - aktualizacja opisu aktualnego stanu projektu,
   - uporządkowanie dokumentacji wykorzystania AI w pliku AI_LOG.md,
-  - planowanie pozostałych podstron i widoków wymaganych w projekcie,
-  - konsultowanie organizacji części publicznej oraz panelu administracyjnego.
+  - planowanie i konsultowanie stron informacje.html, logowanie.html oraz wylogowanie.html,
+  - planowanie pozostałych podstron i widoków wymaganych w projekcie.
 - Co zaproponowało AI:
-  - Propozycje uporządkowania dokumentacji oraz podziału pozostałych widoków na część publiczną i panel administracyjny.
+  - propozycje uporządkowania dokumentacji,
+  - propozycje struktury stron informacyjnej, logowania i wylogowania.
 - Co zmieniłam i dlaczego:
-  - xx ;
+  - uporządkowałam dokumentację zgodnie z aktualnym stanem projektu,
+  - rozdzieliłam elementy już wykonane od tych, które pozostały do wykonania,
+  - dostosowałam proponowane rozwiązania do aktualnego wyglądu i struktury projektu,. 
   
 ## Aktualny etap pracy
 AI wykorzystałam jako narzędzie pomocnicze. Proponowane rozwiązania i fragmenty kodu były sprawdzane podczas pracy nad projektem, a następnie dostosowywane do przyjętej koncepcji strony.

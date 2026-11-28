@@ -71,25 +71,26 @@ Podczas testów poprawiono układ nagłówka, menu, kart koni oraz sekcji kontak
 
 ### Obecnie zrobiłam:
 - [13.XI.2026] - Utworzyłam podstawową strukturę projektu i plików.
-- [16.XI,206] - Utworzyłam podstawowe sekcje strony { : „O nas”, „Nasze konie” , „Oferta” , „Kontakt”}.
-- [19.XI.2026] - Podstawowe style CSS,  układ kart dla koni i oferty oraz układ bloków w sekcji kontaktowej.
+- [16.XI,206] - Utworzyłam podstawowe sekcje strony : „O nas”, „Nasze konie” , „Oferta” , „Kontakt”.
+- [19.XI.2026] - Przygotowałam podstawowe style CSS,  układ kart dla koni i oferty oraz układ bloków w sekcji kontaktowej.
 - [21`.XI.2026] - Stworzyłam nawigację z rozwijanymi elementami.
-- [22.XI.2026] - Uporządkowałam i uprościłam* kod CSS.
+- [22.XI.2026] - Uporządkowałam i uprościłam kod CSS.
 - [22.XI.2026] - Poprawiłam responsywności strony.
-- [23.XI.2026] - Dostosowałam stronę do urządzeń mobilnych i większych ekranów w zakresie 320-1920px}
-- [23.XI.2026] - wykonałam audyt(I) dostępności Lighthouse z wynikiem 100/100 punktów.
-- [28.XI.2026] Uporządkowałam dokumentację projektu README.md i AI_LOG.md.
-- [28.XI.2026] Doprecyzowałam opis wykorzystania narzędzia ChatGPT oraz uporządkowałam historię jego wykorzystania.
-- [28.11.2026] Zaplanowałam strukturę pozostałych podstron projektu, w tym strony informacyjnej, logowania, wylogowania i panelu administracyjnego.
+- [23.XI.2026] - Dostosowałam stronę do urządzeń mobilnych i większych ekranów w zakresie 320-1920px
+- [23.XI.2026] - Wykonałam audyt(I) dostępności Lighthouse z wynikiem 100/100 punktów.
+- [28.XI.2026] - Utworzyłam i sprawdziłam strony : `informacje.html`, `logowanie.html` oraz `wylogowanie.html`.
+- [28.XI.2026] - Uporządkowałam dokumentację projektu w plikach `README.md` i `AI_LOG.md`.
+- [28.XI.2026] - Doprecyzowałam opis wykorzystania narzędzia ChatGPT oraz uporządkowałam historię jego wykorzystania.
+- [28.11.2026] Zaplanowałam strukturę pozostałych podstron projektu, w tym stron logowania, wylogowania i panelu administracyjnego.
 
 ### Do wykonania:
-- Strona informacyjna,
-- Plik PDF ze specyfikacją,
-- Strony ogłoszeń i edycji ogłoszeń,
-- Strony użytkowników i edycji użytkowników,
-- Profil zalogowanego użytkownika,
-- Statystyki serwisu,
-- Formularz logowania i wylogowania,
-- Formularz kontaktowy,
-- Walidacja formularza w JavaScript,
-- Interaktywny element poza formularzem.
+- dodanie pliku PDF ze specyfikacją projektu,
+- utworzenie panelu administracyjnego,
+- utworzenie stron ogłoszeń i edycji ogłoszeń,
+- utworzenie stron użytkowników i edycji użytkowników,
+- utworzenie profilu zalogowanego użytkownika,
+- utworzenie strony statystyk serwisu,
+- utworzenie formularza kontaktowego,
+- dodanie walidacji formularza w JavaScript,
+- dodanie interaktywnego elementu poza formularzem,
+- wykonanie końcowych testów projektu.

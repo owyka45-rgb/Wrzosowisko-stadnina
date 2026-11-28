@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logowanie | Wrzosowisko </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Wrzosowisko</h1>
+        <p>Szkółka jeździecka i stadnina koni</p>
+
+        <nav aria-label="Nawigacja główna">
+            <a href="index.html">Strona główna</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="panel-form">
+            <h2>Logowanie</h2>
+
+            <form id="formularz-logowania">
+
+                <div class="pole-formularza">
+                    <label for="email">Adres e-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        autocomplete="email"
+                    >
+                </div>
+
+                <div class="pole-formularza">
+                    <label for="haslo">Hasło</label>
+                    <input
+                        type="password"
+                        id="haslo"
+                        name="haslo"
+                        required
+                        autocomplete="current-password"
+                    >
+                </div>
+
+                <p id="komunikat-logowania" class="komunikat" aria-live="polite"></p>
+
+                <button type="submit">Zaloguj się</button>
+
+            </form>
+
+            <p class="powrot">
+                <a href="index.html">Powrót do strony głównej</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Wrzosowisko — szkółka jeździecka i stadnina koni</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
